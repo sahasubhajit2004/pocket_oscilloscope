@@ -1,5 +1,3 @@
-# pocket_oscilloscope
-#A oscilloscope pocket friendly
 #include <Adafruit_GFX.h>
 #include <Adafruit_GrayOLED.h>
 #include <Adafruit_SPITFT.h>
@@ -389,7 +387,7 @@ void startScreen() {                 //
   display.setTextSize(1);            // 2
   display.setTextColor(WHITE);       //
   display.setCursor(10, 25);         //
-  display.println(F("ROBOTICS KANTI"));   // 
+  display.println(F("SUBHAJIT SAHA"));   // 
   display.setCursor(10, 45);         //
   display.println(F("Mini OscilLoscope"));
   display.display();                 // 
